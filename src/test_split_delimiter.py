@@ -26,8 +26,8 @@ class TextSplitDelimiter(unittest.TestCase):
                     TextNode("text", TextType.BOLD),
                     TextNode(" is ", TextType.TEXT),
                     TextNode("brave", TextType.BOLD),
-                    TextType(" and ", TextType.TEXT),
-                    TextType("super bold"), TextType.BOLD,
+                    TextNode(" and ", TextType.TEXT),
+                    TextNode("super bold", TextType.BOLD),
                 ]
         )
 
