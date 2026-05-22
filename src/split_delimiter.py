@@ -51,7 +51,6 @@ def split_nodes_image(old_nodes):
 
         if text:
             new_nodes.append(TextNode(text, TextType.TEXT))
-    print(new_nodes)
     return new_nodes
 
 
